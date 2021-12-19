@@ -8,7 +8,7 @@ class MiNav extends HTMLElement {
         </li>
         <li>
           <a href="speaking.html">
-            Speakin</a>
+            Speaking</a>
         </li>
         <li>
           <a href="reading.html">
