@@ -9,7 +9,7 @@ mi-nav ul {
   list-style-type: none; 
   margin: 0;
   padding: 0;
-  overflow: auto;
+  overflow: hidden;
   border: 1px solid #e7e7e7;
   background-color: orangered;
 }
@@ -21,7 +21,7 @@ mi-nav li a {
   size: bold;
   border: black 1px;
   text-align: center;
-  padding: 8px 16px;
+  padding: 4px 16px;
   text-decoration: none;
   border-bottom: 1px solid white;
 }
