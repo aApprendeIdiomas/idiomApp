@@ -2,17 +2,18 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" href="css/estilos.css">
+
 <title>Inicio</title>
 <style>
-body {margin: 0;}
+body {margin: 0;
+background-color: cornflowerblue;}
 
 ul.sidenav {
   list-style-type: none;
   margin: 0;
   padding: 0;
   width: 25%;
-  background-color: #f1f1f1;
+  background-color: black;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -20,19 +21,19 @@ ul.sidenav {
 
 ul.sidenav li a {
   display: block;
-  color: #000;
+  color: white;
   padding: 8px 16px;
   text-decoration: none;
 }
  
 ul.sidenav li a.active {
-  background-color: #4CAF50;
+  background-color: cornflowerblue;
   color: white;
 }
 
 ul.sidenav li a:hover:not(.active) {
   background-color: #555;
-  color: white;
+  color: black;
 }
 
 div.content {
@@ -53,7 +54,8 @@ div.content {
     padding: 15px;
   }
   
-  div.content {margin-left: 0;}
+  div.content {margin-left: 0;
+  color: white;}
 }
 
 @media screen and (max-width: 400px) {
@@ -67,10 +69,11 @@ div.content {
 <body>
 <section class="caja">
 <ul class="sidenav">
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
+  <li><a class="active" href="index.html">Inicio</a></li>
+  <li><a href="#news">Listening</a></li>
+  <li><a href="#contact">Reading</a></li>
+  <li><a href="#about">Speaking</a></li>
+  <li><a href="#about">Writing</a></li>
 </ul>
 
 
@@ -82,6 +85,6 @@ div.content {
   <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
   <h3>Resize the browser window to see the effect.</h3>
 </div>
-</section>
+
 </body>
 </html>
