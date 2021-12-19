@@ -5,35 +5,52 @@ mi-nav {
 }
 
 mi-nav ul {
-  position: -webkit-sticky;
-  position: sticky;
-  top:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  border: 1px solid #e7e7e7;
-  background-color: black;
+  width: 25%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
-mi-nav li {
-  float: left;
-}
-
-mi-nav li a {
+mi-nav ul li a {
   display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+  color: #000;
+  padding: 8px 16px;
   text-decoration: none;
 }
-
-mi-nav li a:hover:not(.active) {
-  background-color: cornflowerblue;
-}
-
-mi-nav li a.active {
+ 
+mi-nav ul li a.active {
+  background-color: #4CAF50;
   color: white;
-  background-color:cyan;
 }
 
+mi-nav ul.sidenav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+@media screen and (max-width: 900px) {
+  mi-nav ul{
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  mi-nav ul li a {
+    float: left;
+    padding: 15px;
+  }
+  
+  .content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  mi-nav ul li a {
+    text-align: center;
+    float: none;
+  }
+}
