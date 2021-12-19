@@ -5,51 +5,54 @@ mi-nav {
 }
 
 mi-nav ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 25%;
-  background-color: #f1f1f1;
-  position: fixed;
-  height: 100%;
-  overflow: auto;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: black;
 }
 
-mi-nav ul li a {
+mi-nav li {
+  float: left;
+}
+
+mi-nav li a {
   display: block;
-  color: #000;
-  padding: 8px 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
- 
-mi-nav ul li a.active {
-  background-color: #4CAF50;
-  color: white;
+
+mi-nav li a:hover:not(.active) {
+  background-color: cornflowerblue;
 }
 
-mi-nav ul.sidenav li a:hover:not(.active) {
-  background-color: #555;
+mi-nav li a.active {
   color: white;
+  background-color:cyan;
 }
-
 
 @media screen and (max-width: 900px) {
-  mi-nav ul{
+  mi-nav ul {
     width: 100%;
     height: auto;
     position: relative;
   }
   
-  mi-nav ul li a {
+ mi-nav ul li a {
     float: left;
     padding: 15px;
   }
   
-  .content {margin-left: 0;}
 }
 
 @media screen and (max-width: 400px) {
-  mi-nav ul li a {
+ mi-nav ul li a {
     text-align: center;
     float: none;
   }
