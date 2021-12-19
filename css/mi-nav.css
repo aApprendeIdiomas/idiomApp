@@ -5,26 +5,22 @@ mi-nav {
 }
 
 mi-nav ul {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   top:0;
   list-style-type: none; 
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   border: 1px solid #e7e7e7;
   background-color: black;
 }
 
-mi-nav li {
-  float: left;
-}
 
 mi-nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 16px;
   text-decoration: none;
 }
 
