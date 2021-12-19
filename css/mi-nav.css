@@ -11,7 +11,7 @@ mi-nav ul {
   padding: 0;
   overflow: auto;
   border: 1px solid #e7e7e7;
-  background-color: orange;
+  background-color: orangered;
 }
 
 
@@ -33,6 +33,7 @@ mi-nav li:last-child {
 mi-nav li a:hover:not(.active) {
   background-color: yellow;
   color: white;
+  border: black 0.5px;
 }
 
 mi-nav li a.active {
