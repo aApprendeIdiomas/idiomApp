@@ -32,6 +32,7 @@ mi-nav li:last-child {
 
 mi-nav li a:hover:not(.active) {
   background-color: yellow;
+  color: white;
 }
 
 mi-nav li a.active {
