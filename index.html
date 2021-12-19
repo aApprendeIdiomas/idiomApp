@@ -1,57 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Apprende Idiomas</title>
-<style>
-body {margin: 0;}
-
-ul.topnav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-ul.topnav li {float: left;}
-
-ul.topnav li a {
-  display: block;
-  color: white;
-  size: 5px;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color:cornflowerblue;}
-
-ul.topnav li.right {float: right;}
-
-@media screen and (max-width: 600px) {
-  ul.topnav li.right, 
-  ul.topnav li {float: none;}
-}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width,
+       initial-scale=1.0">
+  <title>Inicio</title>
+  <script type="module"
+    src="cmp/mi-nav.js">
+    </script>
+  <script type="module"
+    src="cmp/mi-footer.js">
+    </script>
+  <link rel="stylesheet"
+    href="css/estilos.css">
 </head>
 <body>
-
-<ul class="topnav">
-  <li><a class="active" href="#home">Inicio</a></li>
-  <li><a href="#news">Speaking</a></li>
-  <li><a href="#contact">Writing</a></li>
-  <li class="right"><a href="#about">Reading</a></li>
-  <li class="right"><a href="#about">Listening</a></li>
-</ul>
-
-<div style="padding:0 16px;">
-  <h1>Bienvenido!</h1>
-</div>
-
+  <section class="caja">
+ <form name="forma">
+    <mi-nav></mi-nav>
+    <header>
+      <h1>Inicio</h1>
+    </header>
+    <mi-footer></mi-footer>
+  </form>
+</section>
 </body>
 </html>
-
-
