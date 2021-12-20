@@ -1,12 +1,14 @@
 mi-nav { 
-  display: block; 
+  display: block;
+  
   background-color: navy;
 }
 
 mi-nav ul {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top:0;
-  list-style-type: none; 
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -14,32 +16,30 @@ mi-nav ul {
   background-color: orangered;
 }
 
+mi-nav li {
+  float: left;
+}
 
 mi-nav li a {
   display: block;
   color: yellow;
-  size: bold;
-  border: black 1px;
+  border-color: black 2px; 
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  border-bottom: 1px solid white;
-}
-
-mi-nav li:last-child {
-  border-bottom: none;
 }
 
 mi-nav li a:hover:not(.active) {
   background-color: yellow;
   color: white;
-  border: black 0.5px;
+  border-color: black 2px; 
 }
 
 mi-nav li a.active {
   color: white;
-  border: black 0.5px;
   background-color:yellow;
+  border-color: black 2px; 
+
 }
 
 @media screen and (max-width: 900px) {
