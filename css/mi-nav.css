@@ -42,7 +42,7 @@ mi-nav li a:hover:not(.active) {
 mi-nav li:hover>ul{
   display:block;
   position:fixed;
-  padding: 14px 16px;
+  
 }
 
 mi-nav li a.active {
