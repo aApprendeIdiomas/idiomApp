@@ -1,11 +1,15 @@
 class MiNav extends HTMLElement {
   connectedCallback() {
     this.innerHTML = /* html */
-      `<ul>
+`<ul>
         <li>
           <a href="index.html">
             Inicio</a>
         </li>
+        <li>
+          <a href="#ingles">
+            Inglés</a>
+    <ul>
         <li>
           <a href="speaking.html">
             Speaking</a>
@@ -21,8 +25,10 @@ class MiNav extends HTMLElement {
         <li>
           <a href="writing.html">
             Writing</a>
-        </li>
-      </ul>`;
+        </li> 
+    </ul>
+    </li>
+</ul>`;
     this.ul =
       this.querySelector("ul");
   }
