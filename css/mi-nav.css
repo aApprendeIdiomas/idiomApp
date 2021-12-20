@@ -38,7 +38,7 @@ mi-nav li a:hover:not(.active) {
 mi-nav li:hover>ul{
   display:block;
   position:fixed;
-  float: none;
+ 
   top:30px;
   left:100px;
 }
