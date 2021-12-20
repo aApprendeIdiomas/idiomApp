@@ -22,6 +22,7 @@ mi-nav ul>li {
 
 mi-nav li>ul {
   display: none;
+ 
 }
 
 mi-nav li a {
@@ -41,8 +42,7 @@ mi-nav li a:hover:not(.active) {
 mi-nav li:hover>ul{
   display:block;
   position:fixed;
-  top:30px;
-  left:100px;
+  padding: 14px 16px;
 }
 
 mi-nav li a.active {
