@@ -10,6 +10,7 @@ class MiNav extends HTMLElement {
           <a href="#ingles">
             Inglés</a>
     <ul>
+      <div>
         <li>
           <a href="speaking.html">
             Speaking</a>
