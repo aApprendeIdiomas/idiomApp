@@ -23,9 +23,7 @@ mi-nav li>ul{
   display:none;
   }
 
-  mi-nav ul li {
-    float: none;
-  }
+  
 
 mi-nav li a {
   display: block;
