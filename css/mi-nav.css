@@ -20,6 +20,9 @@ mi-nav ul>li {
   float: left;
 }
 
+mi-nav li>ul {
+  display: none;
+}
 
 mi-nav li a {
   display: block;
@@ -38,7 +41,6 @@ mi-nav li a:hover:not(.active) {
 mi-nav li:hover>ul{
   display:block;
   position:fixed;
- 
   top:30px;
   left:100px;
 }
