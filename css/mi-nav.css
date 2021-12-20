@@ -43,7 +43,7 @@ mi-nav li:hover>ul{
   position:absolute;
   float: none;
   top:30px;
-  left:0px;
+  left:10px;
 }
 
 mi-nav li a.active {
