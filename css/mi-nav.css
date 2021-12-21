@@ -55,19 +55,18 @@ mi-nav li a.active {
   mi-nav ul {
     width: 100%;
     height: auto;
-    position: relative;
+    position: sticky;
   }
   
  mi-nav ul li a {
-    float: left;
     padding: 15px;
+    float: none;
   }
   
 }
 
 @media screen and (max-width: 400px) {
  mi-nav ul li a {
-    text-align: center;
     float: none;
   }
 }
