@@ -59,16 +59,16 @@ mi-nav li a.active {
   }
   
  mi-nav ul li a {
-    padding: 15px;
     float: none;
   }
 
   mi-nav li:hover>ul{
     display:block;
-    position:fixed;
+    position: fixed;
     top: auto;
+
   }
-  
+
 }
 
 @media screen and (max-width: 400px) {
