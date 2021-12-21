@@ -63,10 +63,13 @@ mi-nav li a.active {
   }
 
   mi-nav li:hover>ul{
-    display:none;
-    position: relative;
+    display:block;
+    position: fixed;
     top: auto;
 
+  }
+  mi-nav li>ul {
+    display: none;
   }
 
 }
@@ -75,12 +78,16 @@ mi-nav li a.active {
  mi-nav ul li a {
     float: none;
   }
+
   mi-nav li:hover>ul{
-    display: none;
-    position: relative;
+    display: block;
+    position: fixed;
     top: auto;
 
   }
-}
 
+  mi-nav li>ul {
+    display: none;
+  }
+}
 
