@@ -60,6 +60,9 @@ mi-nav li a.active {
   
  mi-nav ul li a {
     float: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
   }
 
   mi-nav li:hover>ul{
@@ -77,6 +80,9 @@ mi-nav li a.active {
 @media screen and (max-width: 400px) {
  mi-nav ul li a {
     float: none;
+    text-align: center;
+   padding: 14px 16px;
+    text-decoration: none;
   }
 
   mi-nav li:hover>ul{
