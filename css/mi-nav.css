@@ -75,6 +75,12 @@ mi-nav li a.active {
  mi-nav ul li a {
     float: none;
   }
+  mi-nav li:hover>ul{
+    display:block;
+    position: relative;
+    top: auto;
+
+  }
 }
 
 
