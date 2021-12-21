@@ -63,8 +63,8 @@ mi-nav li a.active {
   }
 
   mi-nav li:hover>ul{
-    display:block;
-    position: absolute;
+    display:none;
+    position: relative;
     top: auto;
 
   }
@@ -76,8 +76,8 @@ mi-nav li a.active {
     float: none;
   }
   mi-nav li:hover>ul{
-    display:block;
-    position: fixed;
+    display: none;
+    position: relative;
     top: auto;
 
   }
