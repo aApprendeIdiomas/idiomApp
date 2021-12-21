@@ -62,6 +62,12 @@ mi-nav li a.active {
     padding: 15px;
     float: none;
   }
+
+  mi-nav li:hover>ul{
+    display:block;
+    position:fixed;
+    top: auto;
+  }
   
 }
 
