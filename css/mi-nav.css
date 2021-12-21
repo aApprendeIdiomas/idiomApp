@@ -7,7 +7,7 @@ mi-nav {
 mi-nav ul {
   
   position: relative;
-  top:10px;
+  top:0;
   list-style-type: none;
   margin: 0;
   padding: 0;
